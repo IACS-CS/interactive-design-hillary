@@ -1,0 +1,45 @@
+/* My font is from Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:slnt,wght,CRSV@-8,100..900,1&family=Pirata+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.content{
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size:20px;
+}
+.intro-header{
+    font-family: 'Pirata One', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom:10px;
+    border-style:solid;
+    border-color:black;
+    font-size:30px;
+    border-width:3px;
+}
+.intro-summary{
+    font-family: 'Pirata One', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.summary{
+    font-family: 'Pirata One', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.colonial-era{
+    font-family: 'Pirata One', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.present{
+    font-family: 'Pirata One', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
