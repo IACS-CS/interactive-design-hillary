@@ -2,51 +2,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:slnt,wght,CRSV@-8,100..900,1&family=Pirata+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .content{
-  text-align:center;
-  display:flex;
-  flex-direction:column;
+  font-family: 'Pirata One', cursive;
   margin-left: 20px;
   margin-right: 20px;
-  font-size:20px;
+  text-align:center;
 }
-.h1{
-  display:inline-block;
-  /*the line under the heading*/
-  padding-bottom:5px;
-    border-bottom:3px solid black;
-    margin-bottom:12px;  
+.header h1{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    display: inline-block;  /* keep element sized so border-bottom follows its width */
+    padding: 0 80px 8px 80px; /* left/right padding extends the element width -> extends the line */
+    border-bottom: 8px solid #000; /* change 8px to make the line thicker/thinner */
+    border-radius:2px;
 }
-.intro-header{
-    font-family: 'Pirata One', sans-serif;
+h2{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-right:50%;
+    margin-top:10%;
+}
+h3{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+h4{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}   
+.intro-header{   
     font-size: 16px;
     font-weight: 300;
-    margin-bottom:10px;
-    border-style:solid;
-    border-color:black;
-    font-size:30px;
-    border-width:3px;
+    font-size:25px;
 }
 .intro-summary{
-    font-family: 'Pirata One', sans-serif;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 300;
-    margin-bottom: 10px;
+    margin-bottom: 30%;
+    border: 10px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-right:50%;
 }
 .summary{
-    font-family: 'Pirata One', sans-serif;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 300;
-    margin-bottom: 10px;
+    margin-bottom: 30%;;
+    border: 10px solid black;
+    border-radius:15px;
+    padding:10px;
+    margin-right:50%;
 }
 .colonial-era{
-    font-family: 'Pirata One', sans-serif;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 300;
-    margin-bottom: 10px;
+    margin-bottom: 30%;
+    border: 10px solid black;
+    border-radius:15px;
+    padding:10px;
+    margin-right:50%;
 }
 .present{
-    font-family: 'Pirata One', sans-serif;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 300;
-    margin-bottom: 10px;
+    margin-bottom: 30%;
+    border: 10px solid black;
+    border-radius:15px;
+    padding:10px;
+    margin-right:50%;
+}
+/* Background */
+#interactive-design {
+  background-color: #747474; /* Gray background color */
 }
