@@ -41,16 +41,24 @@ h4{
 .intro-summary{
     font-size: 25px;
     font-weight: 300;
-    margin-bottom: 30%;
+    margin-bottom: 10%;
     border: 10px solid black;
     border-radius: 15px;
     padding: 10px;
     margin-right:50%;
 }
+img{
+    width: 500px;
+    border: 10px solid black;
+    border-radius:15px;
+    margin-bottom:10%;
+    margin-left:50%;
+    margin-top:10%;
+}
 .summary{
     font-size: 25px;
     font-weight: 300;
-    margin-bottom: 30%;;
+    margin-bottom: 30%;
     border: 10px solid black;
     border-radius:15px;
     padding:10px;
@@ -74,7 +82,7 @@ h4{
     padding:10px;
     margin-right:50%;
 }
-/* Background */
-#interactive-design {
-  background-color: #747474; /* Gray background color */
+/* set page background color */
+body{
+  background-color: #B1B1B1; /* Gray background color */
 }
