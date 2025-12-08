@@ -40,7 +40,7 @@ h4{
 .intro-summary{
     font-size: 25px;
     font-weight: 300;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
     border: 10px solid black;
     border-radius: 15px;
     padding: 10px;
@@ -51,12 +51,12 @@ img{
     width:calc(50% - 32px);
     border-radius:15px;
     border: 10px solid black;
-    margin-bottom:30%;
+    margin-bottom:10%;
 }
 .summary{
     font-size: 25px;
     font-weight: 300;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
     border: 10px solid black;
     border-radius:15px;
     padding:10px;
@@ -66,7 +66,7 @@ img{
 .colonial-era{
     font-size: 25px;
     font-weight: 300;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
     border: 10px solid black;
     border-radius:15px;
     padding:10px;
@@ -75,7 +75,7 @@ img{
 .present{
     font-size: 25px;
     font-weight: 300;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
     border: 10px solid black;
     border-radius:15px;
     padding:10px;
