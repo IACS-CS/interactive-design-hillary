@@ -1,35 +1,44 @@
 /* My font is from Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:slnt,wght,CRSV@-8,100..900,1&family=Pirata+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:slnt,wght,CRSV@-8,100..900,1&family=Pirata+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.content{
-  font-family: 'Pirata One', cursive;
+.content {
+  font-family: "Pirata One", cursive;
   margin-left: 20px;
   margin-right: 20px;
-  text-align:center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.header h1{
-    font-size: 80px;
-    font-weight: 300;
-    margin-bottom: 10px;
-    display: inline-block;  /* keep element sized so border-bottom follows its width */
-    padding: 0 80px 8px 80px; /* left/right padding extends the element width -> extends the line */
-    border-bottom: 8px solid #000; /* change 8px to make the line thicker/thinner */
-    border-radius:2px;
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
-h2{
-    font-size: 50px;
-    font-weight: 300;
-    margin-bottom: 10px;
-    margin-right:50%;
-    margin-top:10%;
+.header h1 {
+  font-size: 80px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  display: inline-block; /* keep element sized so border-bottom follows its width */
+  padding: 0 80px 8px 80px; /* left/right padding extends the element width -> extends the line */
+  border-bottom: 8px solid #000; /* change 8px to make the line thicker/thinner */
+  border-radius: 2px;
+}
+h2 {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  margin-top: 10%;
+  text-align: center;
 }
 /* flipper container holds both front and back */
 .flipper {
   width: 100%;
-  height: 400px; /* adjust height as needed */
+  height: 250px; /* adjust height as needed */
   perspective: 1000px; /* creates the 3D effect */
   cursor: pointer; /* show the user it's clickable */
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 /* the inner flipper that actually rotates */
@@ -41,8 +50,8 @@ h2{
   transform-style: preserve-3d; /* keeps 3D perspective during flip */
 }
 
-/* when the flipper has the "flipped" class, rotate it 180 degrees */
-.flipper.flipped .flipper-inner {
+/* when the flipper-inner has the "flipped" class, rotate it 180 degrees */
+.flipper-inner.flipped {
   transform: rotateY(180deg); /* flip it! */
 }
 
@@ -73,68 +82,91 @@ h2{
   width: 100%;
   height: 100%;
   object-fit: cover; /* make image fill the box nicely */
-  border-radius: 15px;
+  border-radius: 8px;
   border: 10px solid black;
 }
-h3{
-    font-size: 50px;
-    font-weight: 300;
-    margin-bottom: 10px;
+
+/* style the text on the back of the flipper */
+.explanation {
+  font-size: 25px;
+  font-weight: 300;
+  padding: 20px;
+  color: #000;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 15px;
+  border: 10px solid black;
+  width: 90%;
+  max-width: 500px;
 }
-h4{
-    font-size: 50px;
-    font-weight: 300;
-    margin-bottom: 10px;
-}   
-.intro-header{   
-    font-size: 30px;
-    font-weight: 300;
+h3 {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  text-align: center;
 }
-.intro-summary{
-    font-size: 25px;
-    font-weight: 300;
-    margin-bottom: 20%;
-    border: 10px solid black;
-    border-radius: 15px;
-    padding: 10px;
-    margin-right:50%;
+h4 {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  text-align: center;
 }
-img{
-    margin-left:50%;
-    width:calc(50% - 32px);
-    border-radius:15px;
-    border: 10px solid black;
-    margin-bottom:10%;
+.intro-header {
+  font-size: 30px;
+  font-weight: 300;
 }
-.summary{
-    font-size: 25px;
-    font-weight: 300;
-    margin-bottom: 20%;
-    border: 10px solid black;
-    border-radius:15px;
-    padding:10px;
-    margin-right:50%;
+.intro-summary {
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 20%;
+  border: 10px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  width: 50%;
+}
+img {
+  width: 35%;
+  border-radius: 8px;
+  border: 10px solid black;
+  margin-bottom: 5%;
+}
+.summary {
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 20%;
+  border: 10px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  width: 50%;
 }
 
-.colonial-era{
-    font-size: 25px;
-    font-weight: 300;
-    margin-bottom: 20%;
-    border: 10px solid black;
-    border-radius:15px;
-    padding:10px;
-    margin-right:50%;
+.colonial-era {
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 20%;
+  border: 10px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  width: 50%;
 }
-.present{
-    font-size: 25px;
-    font-weight: 300;
-    margin-bottom: 20%;
-    border: 10px solid black;
-    border-radius:15px;
-    padding:10px;
-    margin-right:50%;
+.present {
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 20%;
+  border: 10px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  width: 50%;
 }
+
+/* make hair.png and cornrows.png images smaller in height */
+img[src="images/hair.png"],
+img[src="images/cornrows.png"] {
+  height: auto;
+  max-height: 700px;
+}
+
 /* set page background color */
-body{
-  background-color: #B1B1B1; /* Gray background color */
+body {
+  background-color: #b1b1b1; /* Gray background color */
 }
