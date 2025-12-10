@@ -170,3 +170,9 @@ img[src="images/cornrows.png"] {
 body {
   background-color: #b1b1b1; /* Gray background color */
 }
+.explanation{
+  height:400px;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;}
